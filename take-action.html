@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take Action | Clear the Air</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html">CLEAR THE AIR <span>UK</span></a>
+  <button class="menu-toggle" aria-expanded="false">☰</button>
+  <nav id="navigation">
+    <a href="index.html">Home</a>
+    <a href="health.html">Smoking & Health</a>
+    <a href="pricing.html">The Cost</a>
+    <a href="litter.html">Cleaner Streets</a>
+    <a href="take-action.html">Take Action</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">Make a difference</p>
+    <h1>Be part of the <em>change.</em></h1>
+    <p>Every positive action can help contribute to a healthier population and a cleaner environment.</p>
+  </section>
+
+  <section class="content">
+    <div class="action-box">
+      <h2>01. Thinking about quitting?</h2>
+      <p>
+        Free NHS information and support can help you take
+        your first steps towards becoming smoke-free.
+      </p>
+      <a class="text-link"
+         href="https://www.nhs.uk/better-health/quit-smoking/"
+         target="_blank">Visit NHS quit smoking support ↗</a>
+    </div>
+
+    <div class="action-box">
+      <h2>02. Learn about tobacco policy</h2>
+      <p>
+        Discover how tobacco duty and cigarette pricing
+        feature in UK tobacco-control policy.
+      </p>
+      <a class="text-link"
+         href="https://www.gov.uk/government/collections/excise-notice-and-other-forms-for-tobacco-duty"
+         target="_blank">Explore government information ↗</a>
+    </div>
+
+    <div class="action-box">
+      <h2>03. Help keep streets clean</h2>
+      <p>
+        Dispose of cigarette ends responsibly and report
+        persistent litter problems to your local council.
+      </p>
+      <a class="text-link"
+         href="https://www.gov.uk/find-local-council"
+         target="_blank">Find your local council ↗</a>
+    </div>
+  </section>
+
+  <section class="feedback">
+    <h2>What matters most to you?</h2>
+    <p>Choose the campaign objective you feel is most important.</p>
+
+    <form id="campaign-form">
+      <label for="priority">Your priority:</label>
+
+      <select id="priority" required>
+        <option value="">Choose an option</option>
+        <option>Reducing smoking</option>
+        <option>Increasing cigarette prices</option>
+        <option>Reducing cigarette litter</option>
+      </select>
+
+      <label for="thoughts">Your thoughts:</label>
+      <textarea id="thoughts" rows="4"
+        placeholder="Share your opinion..."></textarea>
+
+      <button class="button" type="submit">SUBMIT</button>
+
+      <p id="form-message" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <a class="logo" href="index.html">CLEAR THE AIR UK</a>
+  <p>Inform. Support. Protect.</p>
+  <a href="sources.html">Sources & Further Reading</a>
+  <small>This demonstration form does not store or send responses.</small>
+</footer>
+
+</body>
+</html>
